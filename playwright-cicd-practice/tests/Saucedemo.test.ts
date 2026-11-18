@@ -7,3 +7,5 @@ test('SauceDemo Login Test', async ({ page }) => {
   await page.locator('[data-test="login-button"]').click();
   await expect(page.locator('.title')).toHaveText('Products');
 });
+
+//console.log('Simulating a developer code change');
