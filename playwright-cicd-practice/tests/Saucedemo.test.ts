@@ -8,4 +8,5 @@ test('SauceDemo Login Test', async ({ page }) => {
   await expect(page.locator('.title')).toHaveText('Products');
 });
 
-//console.log('Simulating a developer code change');
+//console.log('Simulating a developer code change'1);
+//console.log('Simulating a developer code change'1);
